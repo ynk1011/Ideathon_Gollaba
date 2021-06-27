@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    /* sfont-family: ?; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+
+    padding: 8px 12px;
+
+}
+
+.navbar_logo {
+    font-size: 24px;
+    color: beige
+}
+
+.navbar_logo i {
+    color: rgb(221, 40, 40);
+}
+
+
+.navbar_logo a {
+    color: beige;
+}
+
+.navbar_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar_menu li {
+    padding: 8px 12px;
+    
+}
+
+.navbar_menu a {
+    color: beige
+}
+
+
+.navbar_menu li:hover {
+    background-color: gray;
+    border-radius: 4px;
+}
+
+.navbar_icons {
+    list-style: none;
+    color: beige;
+    display: flex;
+}
+
+.navbar_icons li {
+    padding: 4px 6px;
+}
+
+@media screen and (max-width: 768px)
