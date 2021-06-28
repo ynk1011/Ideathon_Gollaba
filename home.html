@@ -1,0 +1,126 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/button.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/slider.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/intro.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/slider2.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/text.css' %}?new!">
+    <script src="https://kit.fontawesome.com/1b24a1a7da.js" crossorigin="anonymous"></script>
+
+    <title>Gollaba</title>
+
+</head>
+
+<body>
+    <!-- 네브바 -->
+    <nav class="navbar">
+        <div class="navbar_logo">
+            <i class="fas fa-adjust"></i
+                >
+            <a href="#">Gollaba</a>
+        </div>
+
+        <ul class="navbar_menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">GO</a></li>
+        </ul>
+
+        <ul class="navbar_icons">
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fas fa-meh-blank"></i></li>
+        </ul>
+
+    </nav>
+
+    <div class="text area">
+        <section class="container">
+            <h1 class="title">
+              <span>오늘,</span>
+              <span>저녁</span>
+              <span>뭐 먹지?</span>
+            </h1>
+            
+            <h2 class="title">
+              <span>이 티셔츠</span>
+              <span>흰 vs 검</span>
+              <span>무슨 색 살까?</span>
+              
+              
+            </h2>
+          </section>
+          <span class="usechrome">team HBH 2021</span>
+    </div>
+
+     <!-- 인트로 배경 -->
+       
+       <div class="intro"> 
+         <div class="intro_box">
+             <ul>
+                 <li><a href="#">인트로배경</a></li>
+             </ul>
+
+         </div>
+       </div>
+
+
+    <div class="second_box">
+        <!-- 사진 큰 카드 : 슬라이드 이미지 -->    
+                    
+<div class="slidebox">
+	<input type="radio" name="slide" id="slide01" checked>
+	<input type="radio" name="slide" id="slide02">
+	<input type="radio" name="slide" id="slide03">
+	<ul class="slidelist">
+		<li class="slideitem">
+			<a>
+				<label for="slide03" class="prev"></label>
+				<img src="{% static 'images/slide01.jpg' %}">
+				<label for="slide02" class="next"></label>
+			</a>
+		</li>
+		<li class="slideitem">
+			<a>
+				<label for="slide01" class="prev"></label>
+				<img src="{% static 'images/slide02.jpg' %}">
+				<label for="slide03" class="next"></label>
+			</a>
+		</li>
+		<li class="slideitem">
+			<a>
+				<label for="slide02" class="prev"></label>
+				<img src="{% static 'images/slide03.jpg' %}">
+				<label for="slide01" class="next"></label>
+			</a>
+		</li>
+	</ul>
+</div>
+
+    
+
+    <div class="third_box">
+         <!-- 텍스트 카드-->
+    </div>
+    
+
+
+
+    <!-- 작성 버튼 (red) -->
+    <div class="bt">
+     <button>내 투표 올리기</button>
+    </div>
+
+
+</body>
+
+<footer>
+    <!-- 미정  -->
+</footer>
+
+</html>
